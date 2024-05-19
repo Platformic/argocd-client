@@ -1,0 +1,35 @@
+{
+  "name": "argocd-client",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "./dist/*",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "tsx --env-file=.env.test --test --experimental-test-coverage ./src/**/*",
+    "lint": "eslint . --fix",
+    "fix-esm-imports": "./scripts/fix-imports.mjs",
+    "generate": "orval --config ./orval.config.ts"
+  },
+  "dependencies": {
+    "@eslint/js": "^9.2.0",
+    "@t3-oss/env-core": "^0.10.1",
+    "fix-esm-import-path": "^1.5.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/eslint__js": "^8.42.3",
+    "@types/node": "^20.12.11",
+    "eslint": "^9.2.0",
+    "orval": "^6.28.2",
+    "tsc-alias": "^1.8.9",
+    "tsx": "^4.9.5",
+    "typescript": "^5.4.5",
+    "zx": "^8.0.2"
+  }
+}
