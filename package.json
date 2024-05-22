@@ -1,7 +1,16 @@
 {
   "name": "@platformic/argocd-client",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Awesome typesafe ArgoCD client",
+  "author": {
+    "email": "petr@vaclavek.cloud",
+    "name": "Petr Václavek"
+  },
+  "license": "GPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-user/repo-url.git"
+  },
   "keywords": [
     "typescript",
     "argocd",
