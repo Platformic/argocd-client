@@ -1,6 +1,6 @@
 {
   "name": "@platformic/argocd-client",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Awesome typesafe ArgoCD client",
   "author": {
     "email": "petr@vaclavek.cloud",
